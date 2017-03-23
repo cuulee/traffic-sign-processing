@@ -1,0 +1,39 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            4.4506711959838867,
+            51.1890869140625
+          ],
+          [
+            4.4505867958068848,
+            51.189170837402344
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "speed": 30.0,
+        "id": "59191"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.4507217407226563,
+          51.189132690429688
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "speed": 30.0,
+        "id": "59191"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>traffic_sign_processing</AssemblyName>
+    <RootNamespace>traffic_sign_processing</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="2.16.3" />
+    <PackageReference Include="GeoJSON.NetCore" Version="1.0.0-rc20161208" />
+    <PackageReference Include="Itinero" Version="1.0.0" />
+    <PackageReference Include="Serilog.Sinks.ColoredConsole" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
