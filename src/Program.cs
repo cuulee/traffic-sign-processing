@@ -37,12 +37,12 @@ namespace traffic_sign_processing
                     {
                         case "C43":
                             var opschrift = int.Parse(csv.GetField<string>("opschrift").Replace("|", string.Empty));
-                            var lat = (float)csv.GetField<double>("point_lat");
-                            var lon = (float)csv.GetField<double>("point_lng");
+                            var lat = (float)csv.GetField<double>("Y");
+                            var lon = (float)csv.GetField<double>("X");
 
                             trafficSigns.Add(new MaxSpeedSign()
                             {
-                                Id = csv.GetField<string>("id"),
+                                Id = csv.GetField<string>("OBJECTID"),
                                 Latitude = lat,
                                 Longitude = lon,
                                 Speed = opschrift
